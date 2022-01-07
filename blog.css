@@ -1,0 +1,355 @@
+/* *{
+	margin: 0;
+	padding: 0;
+    font-family: 'Merienda', cursive;
+    box-sizing: border-box;
+
+}
+
+.logo{
+ position: absolute;
+ width: 78px;
+ height: 60px;
+ left: 25px;
+ top: 3px;
+ z-index: 1;
+}
+.nav{
+width: 100%;
+height: 75px;
+
+background-position: center;
+background-size: cover;
+
+}
+.nav {
+   position: relative;
+    display: flex;
+}
+ul{
+    flex: 1;
+    text-align: right;
+    
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    height: 23px;
+    width: 65px;
+    border: 1px solid brown;
+    border-radius: 10px 0px;
+    
+    text-align: center;
+    margin: 27px;
+    background-color: rgba(255, 160, 122, 0.6);
+    transition: 0.5s;
+}
+ul li:hover{
+    background-color:rgba(255, 100, 90, 0.6);
+    cursor: pointer;
+
+    
+}
+ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    color: brown;
+    transition: 0.5s;
+
+}
+ ul li a:hover{
+    color: blanchedalmond;
+    cursor: pointer;
+
+ } */
+
+ *{
+    font-family: 'Merienda', cursive;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    position: absolute;
+    width: 90px;
+    height: 75px;
+    left: 25px;
+    top: 3px;
+    z-index: 1;
+   }
+
+.nav{
+    width: 100%;
+    height: 90px;
+    /* background-image: linear-gradient(rgba(236, 236, 225, 0.2),rgba(246, 247, 240, 0.2)),url("images/cat1.jpg"); */
+    /* background-image: url("images/cat1.jpg"); */
+    background-position: center;
+    background-size: cover;
+    
+    }
+    .nav {
+       position: relative;
+        display: flex;
+        /* border: 3px dashed rgb(167, 71, 71); */
+    }
+    ul{
+        flex: 1;
+        text-align: right;
+    }
+    ul li{
+        display: inline-block;
+        list-style: none;
+        width: 85px;
+        
+        border: 1px solid brown;
+        border-radius: 15px 0px;
+        text-align: center;
+        margin: 30px;
+        background-color: rgba(255, 160, 122, 0.6);
+        transition: 0.5s;
+    }
+    ul li:hover{
+        background-color:rgba(255, 100, 90, 0.6);
+        cursor: pointer;
+    
+        
+    }
+    ul li a {
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        color: brown;
+        transition: 0.5s;
+    
+    }
+     ul li a:hover{
+        color: blanchedalmond;
+        cursor: pointer;
+    
+     }
+
+
+
+.blog-body{
+    background-color: rgb(221, 220, 214);
+}
+
+ .border{
+    background-color: rgba(0,0,0,0.2);
+    border: 3px dashed rgb(218, 68, 22);
+   background-image: linear-gradient(rgba(219, 219, 184, 0.5),rgba(179, 189, 154, 0)),url("images/cat1.jpg");
+
+}
+.blog-heading{
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px 2px red;
+}
+.blog-heading:hover{
+    cursor: pointer;
+    text-shadow: 2px 2px black;
+    color: rgb(238, 45, 45);
+
+    
+}
+.blog-content{
+    width: 100%;
+    height: 1030px;
+    margin: auto;
+    background-image: linear-gradient(rgba(219, 219, 184, 0.5),rgba(179, 189, 154, 0)),url("images/cat14.jpg");
+    background-position: center;
+    border: 3px dashed rgb(218, 68, 22);
+    padding: 10px;
+
+}
+.blog-item{
+   
+    display: flex;
+    justify-content: space-between;
+}
+        /* .item{
+    width: 300px;
+    height: 300px;
+    
+}  */
+.first-cotent{
+ width: 40%;
+ height: 390px;
+ border: 1px solid black;
+}
+.table-topic{
+    text-align: center;
+    padding: 5px;
+    font-size: 24px;
+    background-color: rgba(0,0,0,0.2);
+    height: 45px;
+}
+
+.table,td,th{
+    
+    border-collapse: collapse;
+    
+}
+
+.table{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 25px;
+}
+.table-header{
+    height: 35px;
+}
+td{
+    height: 30px;
+}
+tr:nth-child(even){
+    background-color:rgba(238, 145, 6,0.3);
+}
+tr:nth-child(odd){
+    background-color: rgba(250, 67, 11, 0.3);
+}
+.second-content{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 520px;
+}
+.second-header{
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    
+    border-radius: 30px;
+    right: 180px;
+    
+
+}
+.h1{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+    color: whitesmoke;
+
+}
+.text{
+  font-size: 20px;
+  /* background-color: rgba(250, 67, 11, 0.3); */
+  height:265px;
+  text-indent: 80px;
+  position: absolute;
+  top: 420px;
+  bottom: 0px;
+  right: 60px;
+  text-align:justify ;
+  width: 700px;
+  text-shadow: 1px 1px rgb(119, 108, 108);
+
+}
+
+.second-img{
+    width: 400px;
+    height: 250px;
+    /* border: 5px solid #333; */
+    border-radius: 30px;
+    position: absolute;
+    right: 180px;
+    
+}
+.third-content{
+width: 100%;
+height: 500px;
+position: relative;
+bottom: 100px;
+/* background-color:rgba(238, 145, 6,0.3); */
+
+} 
+.line-container{
+    /* background-color: tomato; */
+    display: flex;
+    padding-top: 10px;
+}
+.images{
+    position: relative;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    bottom: 10px;
+}
+.line-text{
+    /* text-indent: 50px; */
+    position: relative;
+    left:10px;
+}
+.form{
+    /* background-color: blueviolet; */
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    bottom: 350px;
+    
+}
+.message{
+  padding: 10px 0 10px 0;
+
+
+}
+.input{
+    width: 50%;
+    background-color: rgba(88, 69, 105,0.5);
+    color: white;
+
+
+}
+.submit-btn{
+    background-color:rgba(255, 100, 90, 0.6);
+    /* background-color: rgba(226, 11, 54, 0.4); */
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 40px;
+    height: 30px;
+}
+.about-section{
+    height: 200px;
+    color: whitesmoke;
+text-shadow: 3px 2px 2px black;
+margin-top: 30px;
+height: 110px;
+    border: 3px dashed rgb(218, 68, 22);
+    
+    background-color:rgba(6, 45, 83, 0.7)
+    /* a change */
+}
+.about-container{
+
+    text-align: center;
+    width: 80%;
+    
+    margin: auto;
+}
+.about-container h3{
+    font-size: 18px;
+}
+.about-container p{
+    font-size: 14px;
+}
+.icons {
+    position: relative;
+    bottom: 18px;
+}
+.icons .fa{
+ font-size: 20px;
+ padding: 35px;
+ margin:0px 10px ;
+}
+

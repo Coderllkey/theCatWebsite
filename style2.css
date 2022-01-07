@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: 'Merienda', cursive;
+    box-sizing: border-box;
+
+}
+
+.logo{
+ position: absolute;
+ width: 100px;
+ height: 80px;
+ left: 30px;
+ top: 5px;
+ z-index: 1;
+}
+.nav{
+width: 100%;
+height: 90px;
+/* background-image: linear-gradient(rgba(236, 236, 225, 0.2),rgba(246, 247, 240, 0.2)),url("images/cat1.jpg"); */
+/* background-image: url("images/cat1.jpg"); */
+background-position: center;
+background-size: cover;
+
+}
+.nav {
+   position: relative;
+    display: flex;
+    /* border: 3px dashed rgb(167, 71, 71); */
+}
+ul{
+    flex: 1;
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    width: 90px;
+    border: 1px solid brown;
+    border-radius: 15px 0px;
+    text-align: center;
+    margin: 27px;
+    background-color: rgba(255, 160, 122, 0.6);
+    transition: 0.5s;
+}
+ul li:hover{
+    background-color:rgba(255, 100, 90, 0.6);
+    cursor: pointer;
+
+    
+}
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    color: brown;
+    transition: 0.5s;
+
+}
+ ul li a:hover{
+    color: blanchedalmond;
+    cursor: pointer;
+
+ }
+ .about-section{
+    height: 200px;
+    color: whitesmoke;
+text-shadow: 3px 2px 2px black;
+
+    /* background-color: red; */
+    /* a change */
+}
+.about-container{
+
+    text-align: center;
+    width: 80%;
+    
+    margin: auto;
+}
+.about-container h3{
+    font-size: 23px;
+}
+.about-container p{
+    font-size: 18px;
+}
+.icons {
+    position: relative;
+    bottom: 18px;
+}
+.icons .fa{
+ font-size: 23px;
+ padding: 35px;
+ margin:0px 10px ;
+}
+
+
+
+
+ /* new code down */
+
+ .body{
+     background-image: url(images/cat17.jpg);
+     background-repeat: no-repeat;
+     height: 100%;
+     width: 100%;
+     background-position: center;
+ }
+ .heading{
+     text-align: center;
+     font-size: 30px;
+ }
+ .heading h1{
+    /* border:5px dashed rgb(199, 121, 121); */
+   display: inline-block;
+   padding: 0px 20px;
+   position: relative;
+   bottom: 30px;
+   color: whitesmoke;
+text-shadow: 3px 2px 2px black;
+
+ }
+ .main-text{
+     background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+     height: 700px;
+     width: 90%;
+     margin: auto;
+     border-radius: 30px;
+     position: relative;
+     bottom: 10px;
+
+ }
+ .first{
+     background-color: burlywood;
+     height: 300px;
+     width: 300px;
+     top: 40px;
+     left: 40px;
+     border-radius: 30px;
+     position: absolute;
+ }
+ .first:hover{
+     transform: rotate(2deg);
+     width: 310px;
+     height: 310px;
+ }
+ .second{
+    /* background-color: rgb(179, 63, 28); */
+    height: 300px;
+    width: 800px;
+   position: absolute;
+   left: 380px;
+   bottom: 345px;
+   text-indent: 50px;
+   font-size: 20px;
+   color: whitesmoke;
+ }
+.third{
+    height: 300px;
+    width: 800px;
+  
+    position: absolute;
+    bottom:20px;
+    left: 30px;
+    font-size: 20px;
+    color: whitesmoke;
+   text-indent: 50px;
+
+}
+.fourth{
+    background-color: burlywood;
+    height: 300px;
+    width: 300px;
+  position: absolute;
+  bottom: 40px;
+  left: 870px;
+    border-radius: 30px;
+}
+.fourth:hover{
+    transform: rotate(2deg);
+    width: 310px;
+    height: 310px;
+}
+
+/* blog css starts here  */
+
+

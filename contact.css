@@ -1,0 +1,215 @@
+*{
+    font-family: 'Merienda', cursive;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    position: absolute;
+    width: 90px;
+    height: 75px;
+    left: 25px;
+    top: 3px;
+    z-index: 1;
+   }
+
+.nav{
+    width: 100%;
+    height: 90px;
+    /* background-image: linear-gradient(rgba(236, 236, 225, 0.2),rgba(246, 247, 240, 0.2)),url("images/cat1.jpg"); */
+    /* background-image: url("images/cat1.jpg"); */
+    background-position: center;
+    background-size: cover;
+    
+    }
+    .nav {
+       position: relative;
+        display: flex;
+        /* border: 3px dashed rgb(167, 71, 71); */
+    }
+    ul{
+        flex: 1;
+        text-align: right;
+    }
+    ul li{
+        display: inline-block;
+        list-style: none;
+        width: 85px;
+        
+        border: 1px solid brown;
+        border-radius: 15px 0px;
+        text-align: center;
+        margin: 30px;
+        background-color: rgba(255, 160, 122, 0.6);
+        transition: 0.5s;
+    }
+    ul li:hover{
+        background-color:rgba(255, 100, 90, 0.6);
+        cursor: pointer;
+    
+        
+    }
+    ul li a {
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        color: brown;
+        transition: 0.5s;
+    
+    }
+     ul li a:hover{
+        color: blanchedalmond;
+        cursor: pointer;
+    
+     }
+     body{
+     background-image: url(images/cat5.jpg);
+  
+
+     }
+     .cat-img{
+         /* position: absolute; */
+         width: 100%;
+         height: 70px;
+       margin: auto;
+       text-align: center;
+       color: black;
+       text-shadow: blanchedalmond 1px 1px;
+      
+     }
+     .contact-form{
+         /* padding-left: 450px;
+         padding-right:200px; */
+         position: absolute;
+         background-color: rgba(73, 55, 40, 0.8);
+         height: 300px;
+         width: 480px;
+         left: 100px;
+         border-radius: 5%;
+
+     }
+     .contact-form :hover{
+        background-color: rgb(73, 55, 40,);
+        color: silver;
+
+    }
+     .inside-form{
+         /* background-color: rgb(105, 129, 129); */
+         display: flex;
+         padding: 20px 0;
+         
+     }
+    
+
+     .contact-form .fa{
+        font-size: 28px;
+        color: #7dcc16;
+        display: inline;
+        padding-left: 5px;
+        
+      
+     }
+     .inside-form h5{
+         font-size: 18px;
+         padding-left: 30px;
+         padding-right: 20px;
+         text-shadow: rgba(114, 111, 110, 0.9) 1px 1px;
+     }
+     .inside-form p{
+         font-size: 18px;
+         text-shadow: rgba(88, 86, 83, 0.9) 1px 1px;
+
+
+     }
+     .pin{
+         width: 30px;
+         height: 30px;
+         border-radius: 50%;
+         background-color: rgba(248, 7, 7, 0.9);
+         border: solid 1px rgb(139, 10, 10);
+         position: absolute;
+         left: 320px;
+         top: 140px;
+     }
+     .pin-two{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: rgba(248, 7, 7, 0.9);
+        border: solid 1px rgb(139, 10, 10);
+        position: absolute;
+        left: 950px;
+        top: 140px;
+        z-index: 1;
+    }
+     .fill-form{
+         /* background-color: snow; */
+        
+         height: 300px;
+         width: 300px;
+         position: absolute;
+         right: 300px;
+     }
+     .real-form{
+        background-color: rgba(73, 55, 40, 0.8);
+         border-radius: 20px;
+         text-align: center;
+         padding-top: 20px;
+         height: 286px;
+         width: 450px;
+         
+     }
+     .form-item{
+         margin-top: 20px;
+         font-size: 18px;
+     }
+     .inputs{
+        margin:10px 0;
+        width: 250px;
+        background-color: rgb(119, 111, 101);
+     }
+     button{
+         margin-bottom: 10px;
+         width: 60px;
+         height: 30px;
+         border-radius: 10px;
+         font-size: 16px;
+         background-color: rgb(165, 82, 82);
+     }
+     button:hover{
+         color: white;
+         background-color: rgb(224, 12, 12);
+     }
+     .about-section{
+      background-color: rgba(54, 52, 50, 0.5);
+        height: 150px;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+    
+        text-shadow: black 1px 1px;
+        color: white;
+    }
+    .about-container{
+    
+        text-align: center;
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    .about-container h3{
+        font-size: 23px;
+    }
+    .about-container p{
+        font-size: 18px;
+    }
+    .icons {
+        position: relative;
+        bottom: 18px;
+    }
+    .icons .fa{
+     font-size: 25px;
+     padding: 35px;
+    }
+    
